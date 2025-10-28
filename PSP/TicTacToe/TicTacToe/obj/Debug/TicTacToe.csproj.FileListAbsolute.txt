@@ -1,0 +1,8 @@
+C:\programacion\java\PSP\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\programacion\java\PSP\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+C:\programacion\java\PSP\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\programacion\java\PSP\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.AssemblyReference.cache
+C:\programacion\java\PSP\TicTacToe\TicTacToe\obj\Debug\TicTacToe.csproj.CoreCompileInputs.cache
+C:\programacion\java\PSP\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+C:\programacion\java\PSP\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\programacion\java\PSP\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe.config
