@@ -46,7 +46,7 @@ namespace SumaMultiproceso
                 Console.WriteLine("Rango " + inicio + "-" + fin + " = " + parcial);
                 sumaTotal += parcial;
 
-
+                //
             }
 
             Console.WriteLine("\nPrimos totales = " + sumaTotal);
