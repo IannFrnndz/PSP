@@ -1,0 +1,8 @@
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\SumaMultiproceso\bin\Debug\SumaMultiproceso.exe.config
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\SumaMultiproceso\bin\Debug\SumaMultiproceso.exe
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\SumaMultiproceso\bin\Debug\SumaMultiproceso.pdb
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\SumaMultiproceso\obj\Debug\SumaMultiproceso.csproj.AssemblyReference.cache
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\SumaMultiproceso\obj\Debug\SumaMultiproceso.csproj.CoreCompileInputs.cache
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\SumaMultiproceso\obj\Debug\SumaMultiproceso.exe
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\SumaMultiproceso\obj\Debug\SumaMultiproceso.pdb
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\SumaMultiproceso\obj\Debug\SumaMultiproceso.exe.config

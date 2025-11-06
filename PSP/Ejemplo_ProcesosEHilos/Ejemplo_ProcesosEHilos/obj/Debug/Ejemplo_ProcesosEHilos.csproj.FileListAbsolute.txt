@@ -1,0 +1,8 @@
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\Ejemplo_ProcesosEHilos\bin\Debug\Ejemplo_ProcesosEHilos.exe.config
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\Ejemplo_ProcesosEHilos\bin\Debug\Ejemplo_ProcesosEHilos.exe
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\Ejemplo_ProcesosEHilos\bin\Debug\Ejemplo_ProcesosEHilos.pdb
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\Ejemplo_ProcesosEHilos\obj\Debug\Ejemplo_ProcesosEHilos.csproj.AssemblyReference.cache
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\Ejemplo_ProcesosEHilos\obj\Debug\Ejemplo_ProcesosEHilos.csproj.CoreCompileInputs.cache
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\Ejemplo_ProcesosEHilos\obj\Debug\Ejemplo_ProcesosEHilos.exe
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\Ejemplo_ProcesosEHilos\obj\Debug\Ejemplo_ProcesosEHilos.pdb
+C:\programacion\java\PSP\Ejemplo_ProcesosEHilos\Ejemplo_ProcesosEHilos\obj\Debug\Ejemplo_ProcesosEHilos.exe.config

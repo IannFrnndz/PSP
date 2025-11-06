@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\programacion\\java\\PSP\\Ejemplo_ProcesosEHilos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6E4A216-2207-4345-B427-1667267DA35F}|SumaMultiproceso\\SumaMultiproceso.csproj|c:\\programacion\\java\\psp\\ejemplo_procesosehilos\\sumamultiproceso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6E4A216-2207-4345-B427-1667267DA35F}|SumaMultiproceso\\SumaMultiproceso.csproj|solutionrelative:sumamultiproceso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B40DC3-E417-40E9-B901-9C56CC75C188}|Ejemplo_ProcesosEHilos\\Ejemplo_ProcesosEHilos.csproj|c:\\programacion\\java\\psp\\ejemplo_procesosehilos\\ejemplo_procesosehilos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B40DC3-E417-40E9-B901-9C56CC75C188}|Ejemplo_ProcesosEHilos\\Ejemplo_ProcesosEHilos.csproj|solutionrelative:ejemplo_procesosehilos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\programacion\\java\\PSP\\Ejemplo_ProcesosEHilos\\SumaMultiproceso\\Program.cs",
+              "RelativeDocumentMoniker": "SumaMultiproceso\\Program.cs",
+              "ToolTip": "C:\\programacion\\java\\PSP\\Ejemplo_ProcesosEHilos\\SumaMultiproceso\\Program.cs",
+              "RelativeToolTip": "SumaMultiproceso\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwCsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T10:17:05.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\programacion\\java\\PSP\\Ejemplo_ProcesosEHilos\\Ejemplo_ProcesosEHilos\\Program.cs",
+              "RelativeDocumentMoniker": "Ejemplo_ProcesosEHilos\\Program.cs",
+              "ToolTip": "C:\\programacion\\java\\PSP\\Ejemplo_ProcesosEHilos\\Ejemplo_ProcesosEHilos\\Program.cs",
+              "RelativeToolTip": "Ejemplo_ProcesosEHilos\\Program.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAwwGIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T08:41:03.032Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
