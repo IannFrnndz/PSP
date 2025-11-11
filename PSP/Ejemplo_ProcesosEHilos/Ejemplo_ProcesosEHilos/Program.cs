@@ -6,11 +6,49 @@ using System.Threading.Tasks;
 
 
 using System.Diagnostics;
+using System.Threading;
 
 namespace Ejemplo_ProcesosEHilos
 {
+    class HilosAunMasGuapos
+    {
+        public void EjemploHilos0()
+        {
+            for (int i = 1; i <= 60; i++)
+            {
+                Console.WriteLine("Hilo secundario: i = " + i);
+                Thread.Sleep(1000);
+            }
+        }
+
+        public void EjemploTrabajoHiloPrincipal()
+        {
+            for (int j = 0;j <= 5; j++)
+            {
+               
+                Thread.Sleep(10000);
+                Console.WriteLine("Continuo trabajando");
+            }
+
+            Console.WriteLine("Fin del hilo principal");
+        }
+
+        public void EjemploHilos1(object valor)
+        {
+            char id = (char)valor;
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine("Hilo " + id + ": i = " + i);
+                Thread.Sleep(2000);
+            }
+           
+        }
+    }
+
     internal class Program
     {
+
+
 
         class ProcesosGuapardos
         {
@@ -76,45 +114,64 @@ namespace Ejemplo_ProcesosEHilos
         static void Main(string[] args)
         {
 
-            ProcesosGuapardos p = new ProcesosGuapardos();
+            // Ejercicio de contador de segundos con hilos
+
+            //ProcesosGuapardos p = new ProcesosGuapardos();
+
+            HilosAunMasGuapos h = new HilosAunMasGuapos();
+
+            //Thread hilo = new Thread(h.EjemploHilos0);
+
+            //hilo.Start();
+
+            //h.EjemploTrabajoHiloPrincipal();
+
+            Thread hilo1 = new Thread(new ParameterizedThreadStart(h.EjemploHilos1));
+            Thread hilo2 = new Thread(new ParameterizedThreadStart(h.EjemploHilos1));
+            Thread hilo3 = new Thread(new ParameterizedThreadStart(h.EjemploHilos1));
+            
+            hilo1.Start('a');
+            hilo2.Start('b');
+            hilo3.Start('c');
+
             //p.EjemploProcesos0();
 
-            if (args.Length < 2)
-            {
-                Console.WriteLine("Uso: Subproceso_SumaParcial <inicio> <fin>");
-                return;
-            }
+            //if (args.Length < 2)
+            //{
+            //    Console.WriteLine("Uso: Subproceso_SumaParcial <inicio> <fin>");
+            //    return;
+            //}
 
-            int inicio = int.Parse(args[0]);
-            int fin = int.Parse(args[1]);
-            long suma = 0;
-            long numPrimos = 0;
+            //int inicio = int.Parse(args[0]);
+            //int fin = int.Parse(args[1]);
+            //long suma = 0;
+            //long numPrimos = 0;
 
-            for (int i = inicio; i <= fin; i++)
-            {
-                suma += i;
-                if (EsPrimo(i))
-                {
-                    numPrimos++;
-                }
+            //for (int i = inicio; i <= fin; i++)
+            //{
+            //    suma += i;
+            //    if (EsPrimo(i))
+            //    {
+            //        numPrimos++;
+            //    }
 
-            }
+            //}
 
-            Console.WriteLine(numPrimos);
+            //Console.WriteLine(numPrimos);
 
-            bool EsPrimo(int numero)
-            {
-                if (numero < 2) return false;
-                if (numero == 2) return true;
-                if (numero % 2 == 0) return false;
+            //bool EsPrimo(int numero)
+            //{
+            //    if (numero < 2) return false;
+            //    if (numero == 2) return true;
+            //    if (numero % 2 == 0) return false;
 
-                for (int i = 3; i <= Math.Sqrt(numero); i += 2)
-                {
-                    if (numero % i == 0)
-                        return false;
-                }
-                return true;
-            }
+            //    for (int i = 3; i <= Math.Sqrt(numero); i += 2)
+            //    {
+            //        if (numero % i == 0)
+            //            return false;
+            //    }
+            //    return true;
+            //}
         }
     }
 }
