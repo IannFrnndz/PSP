@@ -6,7 +6,7 @@ class ProcesoHijo
 {
     static void Main()
     {
-        // Cantidad de pistas que este proceso hijo va a simular
+        // Cantidad de pistas que este proceso hijo va a simula
         int pistas = 2;
 
         // Cantidad de hilos por pista
