@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\Desktop\\PSP\\PSP\\PSP\\CarreraCanicas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F31BC92-A249-4ED3-B162-DE7CF1D46041}|PadreHilosCanicas\\PadreHilosCanicas.csproj|c:\\users\\administrador\\desktop\\psp\\psp\\psp\\carreracanicas\\padrehiloscanicas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F31BC92-A249-4ED3-B162-DE7CF1D46041}|PadreHilosCanicas\\PadreHilosCanicas.csproj|solutionrelative:padrehiloscanicas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCE11F57-4B9F-4A6B-B14E-2CD6AB9B08AB}|CarreraCanicas\\CarreraCanicas.csproj|C:\\Users\\Administrador\\Desktop\\PSP\\PSP\\PSP\\CarreraCanicas\\carreracanicas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCE11F57-4B9F-4A6B-B14E-2CD6AB9B08AB}|CarreraCanicas\\CarreraCanicas.csproj|solutionrelative:carreracanicas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCE11F57-4B9F-4A6B-B14E-2CD6AB9B08AB}|CarreraCanicas\\CarreraCanicas.csproj|c:\\users\\administrador\\desktop\\psp\\psp\\psp\\carreracanicas\\carreracanicas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCE11F57-4B9F-4A6B-B14E-2CD6AB9B08AB}|CarreraCanicas\\CarreraCanicas.csproj|solutionrelative:carreracanicas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F31BC92-A249-4ED3-B162-DE7CF1D46041}|PadreHilosCanicas\\PadreHilosCanicas.csproj|c:\\users\\administrador\\desktop\\psp\\psp\\psp\\carreracanicas\\padrehiloscanicas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F31BC92-A249-4ED3-B162-DE7CF1D46041}|PadreHilosCanicas\\PadreHilosCanicas.csproj|solutionrelative:padrehiloscanicas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\PSP\\PSP\\PSP\\CarreraCanicas\\PadreHilosCanicas\\Program.cs",
               "RelativeDocumentMoniker": "PadreHilosCanicas\\Program.cs",
               "ToolTip": "C:\\Users\\Administrador\\Desktop\\PSP\\PSP\\PSP\\CarreraCanicas\\PadreHilosCanicas\\Program.cs",
               "RelativeToolTip": "PadreHilosCanicas\\Program.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAAAEMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T20:26:36.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\PSP\\PSP\\PSP\\CarreraCanicas\\CarreraCanicas\\Program.cs",
               "RelativeDocumentMoniker": "CarreraCanicas\\Program.cs",
               "ToolTip": "C:\\Users\\Administrador\\Desktop\\PSP\\PSP\\PSP\\CarreraCanicas\\CarreraCanicas\\Program.cs",
               "RelativeToolTip": "CarreraCanicas\\Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwB4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T20:21:37.328Z",
               "EditorCaption": ""
