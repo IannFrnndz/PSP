@@ -1,0 +1,8 @@
+C:\Users\Administrador\Desktop\PSP\PSP\PSP\CarreraCanicas\PadreHilosCanicas\bin\Debug\PadreHilosCanicas.exe.config
+C:\Users\Administrador\Desktop\PSP\PSP\PSP\CarreraCanicas\PadreHilosCanicas\bin\Debug\PadreHilosCanicas.exe
+C:\Users\Administrador\Desktop\PSP\PSP\PSP\CarreraCanicas\PadreHilosCanicas\bin\Debug\PadreHilosCanicas.pdb
+C:\Users\Administrador\Desktop\PSP\PSP\PSP\CarreraCanicas\PadreHilosCanicas\obj\Debug\PadreHilosCanicas.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\PSP\PSP\PSP\CarreraCanicas\PadreHilosCanicas\obj\Debug\PadreHilosCanicas.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\PSP\PSP\PSP\CarreraCanicas\PadreHilosCanicas\obj\Debug\PadreHilosCanicas.exe
+C:\Users\Administrador\Desktop\PSP\PSP\PSP\CarreraCanicas\PadreHilosCanicas\obj\Debug\PadreHilosCanicas.pdb
+C:\Users\Administrador\Desktop\PSP\PSP\PSP\CarreraCanicas\PadreHilosCanicas\obj\Debug\PadreHilosCanicas.exe.config
