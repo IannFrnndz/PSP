@@ -6,3 +6,11 @@ C:\Users\Administrador\Desktop\PSP\PSP\PSP\CarreraCanicas\CarreraCanicas\obj\Deb
 C:\Users\Administrador\Desktop\PSP\PSP\PSP\CarreraCanicas\CarreraCanicas\obj\Debug\CarreraCanicas.exe
 C:\Users\Administrador\Desktop\PSP\PSP\PSP\CarreraCanicas\CarreraCanicas\obj\Debug\CarreraCanicas.pdb
 C:\Users\Administrador\Desktop\PSP\PSP\PSP\CarreraCanicas\CarreraCanicas\obj\Debug\CarreraCanicas.exe.config
+C:\programacion\java\PSP\CarreraCanicas\CarreraCanicas\bin\Debug\CarreraCanicas.exe.config
+C:\programacion\java\PSP\CarreraCanicas\CarreraCanicas\bin\Debug\CarreraCanicas.exe
+C:\programacion\java\PSP\CarreraCanicas\CarreraCanicas\bin\Debug\CarreraCanicas.pdb
+C:\programacion\java\PSP\CarreraCanicas\CarreraCanicas\obj\Debug\CarreraCanicas.csproj.AssemblyReference.cache
+C:\programacion\java\PSP\CarreraCanicas\CarreraCanicas\obj\Debug\CarreraCanicas.exe.config
+C:\programacion\java\PSP\CarreraCanicas\CarreraCanicas\obj\Debug\CarreraCanicas.csproj.CoreCompileInputs.cache
+C:\programacion\java\PSP\CarreraCanicas\CarreraCanicas\obj\Debug\CarreraCanicas.exe
+C:\programacion\java\PSP\CarreraCanicas\CarreraCanicas\obj\Debug\CarreraCanicas.pdb

@@ -9,7 +9,7 @@ class ProcesoHijo
         // Cantidad de pistas que este proceso hijo va a simular
         int pistas = 2;
 
-        // Cantidad de canicas (hilos) por pista
+        // Cantidad de hilos por pista
         int canicasPorPista = 2;
 
         // Bucle para recorrer cada pista
@@ -23,21 +23,21 @@ class ProcesoHijo
             // Array para guardar el tiempo final de cada canica
             TimeSpan[] tiempos = new TimeSpan[canicasPorPista];
 
-            // Crear y arrancar cada canica (cada una es un hilo)
+            // Crear y arrancar cada canica ,cada una es un hilo
             for (int i = 0; i < canicasPorPista; i++)
             {
-                int index = i; // Se guarda para usarlo dentro de la lambda (closure)
+                int index = i; 
 
-                // Crear el hilo (canica)
+                // Crear el hilo canica
                 canicas[i] = new Thread(() =>
                 {
                     // Cronómetro para medir el tiempo de esa canica
                     Stopwatch sw = Stopwatch.StartNew();
 
-                    // Simulación del avance: 10 pasos (ticks)
+                    // Avance en 10 ticks
                     for (int t = 0; t < 10; t++)
                     {
-                        // Simula trabajo: se duerme entre 100 y 150 ms
+                        // Se duerme un tiempo aleatorio entre 100 y 150 ms
                         Thread.Sleep(100 + new Random().Next(50));
                     }
 
@@ -55,7 +55,7 @@ class ProcesoHijo
                 canicas[i].Start();
             }
 
-            // Esperar a que TODAS las canicas terminen (Join)
+            // Esperar a que todas las canicas terminen 
             foreach (var c in canicas)
                 c.Join();
 
@@ -64,10 +64,10 @@ class ProcesoHijo
             for (int i = 0; i < canicasPorPista; i++)
                 Console.WriteLine($"Canica {i + 1}: {tiempos[i].TotalMilliseconds} ms");
 
-            Console.WriteLine(); // Línea en blanco para separar pistas
+            Console.WriteLine(); 
         }
 
-        // Mensaje final del proceso hijo
+        
         Console.WriteLine("Proceso hijo terminó todas las pistas.");
     }
 }
