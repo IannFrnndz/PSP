@@ -1,0 +1,7 @@
+C:\programacion\java\PSP\EjemploTCPcliente\EjemploTCPcliente\bin\Debug\EjemploTCPcliente.exe.config
+C:\programacion\java\PSP\EjemploTCPcliente\EjemploTCPcliente\bin\Debug\EjemploTCPcliente.exe
+C:\programacion\java\PSP\EjemploTCPcliente\EjemploTCPcliente\bin\Debug\EjemploTCPcliente.pdb
+C:\programacion\java\PSP\EjemploTCPcliente\EjemploTCPcliente\obj\Debug\EjemploTCPcliente.csproj.AssemblyReference.cache
+C:\programacion\java\PSP\EjemploTCPcliente\EjemploTCPcliente\obj\Debug\EjemploTCPcliente.csproj.CoreCompileInputs.cache
+C:\programacion\java\PSP\EjemploTCPcliente\EjemploTCPcliente\obj\Debug\EjemploTCPcliente.exe
+C:\programacion\java\PSP\EjemploTCPcliente\EjemploTCPcliente\obj\Debug\EjemploTCPcliente.pdb

@@ -1,0 +1,8 @@
+C:\programacion\java\PSP\EjemplosTCPserver\EjemplosTCPserver\bin\Debug\EjemplosTCPserver.exe.config
+C:\programacion\java\PSP\EjemplosTCPserver\EjemplosTCPserver\bin\Debug\EjemplosTCPserver.exe
+C:\programacion\java\PSP\EjemplosTCPserver\EjemplosTCPserver\bin\Debug\EjemplosTCPserver.pdb
+C:\programacion\java\PSP\EjemplosTCPserver\EjemplosTCPserver\obj\Debug\EjemplosTCPserver.csproj.AssemblyReference.cache
+C:\programacion\java\PSP\EjemplosTCPserver\EjemplosTCPserver\obj\Debug\EjemplosTCPserver.csproj.CoreCompileInputs.cache
+C:\programacion\java\PSP\EjemplosTCPserver\EjemplosTCPserver\obj\Debug\EjemplosTCPserver.exe
+C:\programacion\java\PSP\EjemplosTCPserver\EjemplosTCPserver\obj\Debug\EjemplosTCPserver.pdb
+C:\programacion\java\PSP\EjemplosTCPserver\EjemplosTCPserver\obj\Debug\EjemplosTCPserver.exe.config
