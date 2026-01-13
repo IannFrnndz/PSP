@@ -1,64 +1,69 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
-namespace EjemplosTCPserver
+namespace ServidorTCPDef
 {
     internal class Program
     {
+        // Lista de todos los clientes conectados, así podemos manejar varios a la vez
+        static List<TcpClient> clientesConectados = new List<TcpClient>();
+
         static void Main(string[] args)
         {
-            //servidor que escucha en cualquier IP en el puerto local
+            int numerocliente = 0;
 
-            TcpListener miServerGuapo = new TcpListener(IPAddress.Any, 5000);
-            // abre el puerto y empieza a escuchar conexiones entrantes
-            miServerGuapo.Start();
-            Console.WriteLine("Esperando a que se conecte mi pana...");
+            // Servidor que escucha en cualquier IP local, puerto 5000
+            TcpListener miserverguapo = new TcpListener(IPAddress.Any, 5000);
+            miserverguapo.Start();
+            Console.WriteLine("Esperando a que se conecten los clientes...");
 
+            // Bucle infinito para aceptar clientes continuamente
+            while (true)
+            {
+                // AcceptTcpClient se bloquea hasta que un cliente se conecte
+                TcpClient cliente = miserverguapo.AcceptTcpClient();
+                clientesConectados.Add(cliente); // lo agregamos a la lista
+                Console.WriteLine("Cliente conectado");
+                numerocliente++;
 
-            // acepta una conexion entrante
-            //AcceptTcpClient es una llamada bloqueante
-            // cuando alguien se conecta, devuelve un TcpClient 
-            TcpClient cliente = miServerGuapo.AcceptTcpClient();
+                // Crear una tarea/hilo para manejar este cliente sin bloquear a los demás
+                Thread t = new Thread(() => ManejarCliente(cliente, numerocliente));
+                t.Start();
+            }
 
-            Console.WriteLine("Cliente conectado");
+        }
 
-            // Obtener el flujo del datos asociado al socket del el cliente asociado
-            // todo lo que esriba en flujodatos se enviará al cliente
+        // Método para manejar la comunicación con un cliente específico
+        private static void ManejarCliente(TcpClient cliente, int clinum)
+        {
+            // Obtener el flujo de datos del cliente
             NetworkStream flujodatos = cliente.GetStream();
 
-            bool cerrar = false;
-
-             string mensaje = "";
-
-            while (!cerrar)
+            // Bucle para enviar mensajes al cliente mientras no escribamos "salir"
+            while (true)
             {
-                Console.WriteLine("Escribe un mensaje: ");
-                string mensaje = Console.ReadLine();
-                byte[] puroDataChorizo = Encoding.UTF8.GetBytes($"Mensaje del cliente: {mensaje} ");
+                string enviarnumerocliente = "Cliente: " + clinum;
+                Console.Write("Escribe un mensaje para el cliente cliente " + clinum + ": ");
+                string mensajeDelServidor = Console.ReadLine();
+                byte[] purodatachorizo = Encoding.UTF8.GetBytes(mensajeDelServidor);
 
-                flujodatos.Write(puroDataChorizo, 0, puroDataChorizo.Length);
+                // Enviar los bytes al cliente
+                flujodatos.Write(purodatachorizo, 0, purodatachorizo.Length);
 
-                if (mensaje.ToLower() == "cerrar")
-                {
-                    cerrar = true;
-                }
-                
+                // Si escribimos "salir", cerramos la conexión con este cliente
+                if (mensajeDelServidor.ToLower() == "salir")
+                    break;
             }
-            ;
 
-
-            // cierra la conexion con el clientardo
+            // Cerramos la conexión con el cliente
             cliente.Close();
-
-            // cierra el servidor guapo y deja de escuchar
-            miServerGuapo.Stop();
-
-
+            // Lo quitamos de la lista de clientes conectados
+            clientesConectados.Remove(cliente);
         }
     }
 }

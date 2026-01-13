@@ -5,3 +5,4 @@ C:\programacion\java\PSP\EjemploTCPcliente\EjemploTCPcliente\obj\Debug\EjemploTC
 C:\programacion\java\PSP\EjemploTCPcliente\EjemploTCPcliente\obj\Debug\EjemploTCPcliente.csproj.CoreCompileInputs.cache
 C:\programacion\java\PSP\EjemploTCPcliente\EjemploTCPcliente\obj\Debug\EjemploTCPcliente.exe
 C:\programacion\java\PSP\EjemploTCPcliente\EjemploTCPcliente\obj\Debug\EjemploTCPcliente.pdb
+C:\programacion\java\PSP\EjemploTCPcliente\EjemploTCPcliente\obj\Debug\EjemploTCPcliente.exe.config

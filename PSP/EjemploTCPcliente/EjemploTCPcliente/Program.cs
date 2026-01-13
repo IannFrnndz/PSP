@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
-using System.Net;
-using System.Net.Sockets;
-using System.IO;
 
-namespace EjemploTCPcliente
+namespace ClienteTCP
 {
     internal class Program
     {
@@ -18,25 +16,24 @@ namespace EjemploTCPcliente
 
             // intento conectar al server que este en la ip(localhost , es decir, yo mismo )
             //se bloquea hasta que se conecte o falle
-            clientardo.Connect("127.0.0.1",5000);
+            clientardo.Connect("127.0.0.1", 5000);
 
             // obteno el flujo de datos para recibir datos
             NetworkStream flujillo = clientardo.GetStream();
 
-            
+
             byte[] yoQuieroBuffer = new byte[1024];
 
-            // read se bloquea hasta que el servidor envie datos
-            // devuelve la cantidad de bytes leidos/ recibidos
-            int cosasLeidas = flujillo.Read(yoQuieroBuffer, 0, yoQuieroBuffer.Length);
+            while (true) // bucle para recibir múltiples mensajes
+            {
+                int cosasLeidas = flujillo.Read(yoQuieroBuffer, 0, yoQuieroBuffer.Length);
+                if (cosasLeidas == 0) break; // se desconectó el servidor
 
-            string mensajardo;
+                string mensajardo = Encoding.UTF8.GetString(yoQuieroBuffer, 0, cosasLeidas);
+                Console.WriteLine("El server te dice esto macho: " + mensajardo);
+            }
 
-            mensajardo = Encoding.UTF8.GetString(yoQuieroBuffer, 0, cosasLeidas);
-
-            Console.WriteLine("El server te dice esto macho: " + mensajardo);
-
-
+            clientardo.Close();
         }
     }
 }
