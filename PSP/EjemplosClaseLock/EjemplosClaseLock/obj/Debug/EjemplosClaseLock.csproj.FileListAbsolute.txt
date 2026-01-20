@@ -1,0 +1,8 @@
+C:\programacion\java\PSP\EjemplosClaseLock\EjemplosClaseLock\bin\Debug\EjemplosClaseLock.exe.config
+C:\programacion\java\PSP\EjemplosClaseLock\EjemplosClaseLock\bin\Debug\EjemplosClaseLock.exe
+C:\programacion\java\PSP\EjemplosClaseLock\EjemplosClaseLock\bin\Debug\EjemplosClaseLock.pdb
+C:\programacion\java\PSP\EjemplosClaseLock\EjemplosClaseLock\obj\Debug\EjemplosClaseLock.csproj.AssemblyReference.cache
+C:\programacion\java\PSP\EjemplosClaseLock\EjemplosClaseLock\obj\Debug\EjemplosClaseLock.csproj.CoreCompileInputs.cache
+C:\programacion\java\PSP\EjemplosClaseLock\EjemplosClaseLock\obj\Debug\EjemplosClaseLock.exe
+C:\programacion\java\PSP\EjemplosClaseLock\EjemplosClaseLock\obj\Debug\EjemplosClaseLock.pdb
+C:\programacion\java\PSP\EjemplosClaseLock\EjemplosClaseLock\obj\Debug\EjemplosClaseLock.exe.config

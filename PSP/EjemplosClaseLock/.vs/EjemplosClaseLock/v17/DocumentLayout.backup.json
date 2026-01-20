@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\programacion\\java\\PSP\\EjemplosClaseLock\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EA0A02D-4C7D-4F99-B3D2-1DAEE7EB8E11}|EjemplosClaseLock\\EjemplosClaseLock.csproj|c:\\programacion\\java\\psp\\ejemplosclaselock\\ejemplosclaselock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EA0A02D-4C7D-4F99-B3D2-1DAEE7EB8E11}|EjemplosClaseLock\\EjemplosClaseLock.csproj|solutionrelative:ejemplosclaselock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\programacion\\java\\PSP\\EjemplosClaseLock\\EjemplosClaseLock\\Program.cs",
+              "RelativeDocumentMoniker": "EjemplosClaseLock\\Program.cs",
+              "ToolTip": "C:\\programacion\\java\\PSP\\EjemplosClaseLock\\EjemplosClaseLock\\Program.cs",
+              "RelativeToolTip": "EjemplosClaseLock\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T08:46:13.796Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
