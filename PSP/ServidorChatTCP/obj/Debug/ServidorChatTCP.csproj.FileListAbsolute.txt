@@ -1,0 +1,7 @@
+C:\programacion\java\PSP\ServidorChatTCP\bin\Debug\ServidorChatTCP.exe.config
+C:\programacion\java\PSP\ServidorChatTCP\bin\Debug\ServidorChatTCP.exe
+C:\programacion\java\PSP\ServidorChatTCP\bin\Debug\ServidorChatTCP.pdb
+C:\programacion\java\PSP\ServidorChatTCP\obj\Debug\ServidorChatTCP.csproj.AssemblyReference.cache
+C:\programacion\java\PSP\ServidorChatTCP\obj\Debug\ServidorChatTCP.csproj.CoreCompileInputs.cache
+C:\programacion\java\PSP\ServidorChatTCP\obj\Debug\ServidorChatTCP.exe
+C:\programacion\java\PSP\ServidorChatTCP\obj\Debug\ServidorChatTCP.pdb
